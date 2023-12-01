@@ -45,7 +45,7 @@ header nav{
  margin-bottom: 50px;  
 }
 
-.container div{
+.aa div{
     background-color: #b5ddff ;
     width: 300px;
     height: 370px;
@@ -122,6 +122,79 @@ h1.blue{
     font-weight:600 ;
     opacity: .8;
 }
+
+h1.large{
+    font-size: 35px;
+}
+
+.girl{
+    width: 100%;
+}
+
+div.violet{
+    padding-top: 70px;
+    padding-inline: 35px;
+    justify-content: flex-start;
+}
+
+.violet{
+    background-color: #9593e6;
+}
+
+.violet div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    color: white;
+}
+
+.violet p{
+    width: 80%;
+  
+}
+
+div.whitescreen{
+    height: 650px;
+    width: 100%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 50px;
+    background-color: white;
+    gap: 20px;
+
+
+   }
+
+  .boy{
+    width: 100%;
+    
+  } 
+
+  .black{
+    color: black;
+  }
+
+  .whitescreen p{
+    text-align: center;
+} 
+
+.whitescreen span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    aspect-ratio: 1;
+    background-color: #9593e6;
+    border-radius: 100px;
+}
+
+
+
+
 
 
 
