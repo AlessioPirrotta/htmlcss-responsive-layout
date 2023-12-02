@@ -3,6 +3,8 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+html{
+}
 
 *{
     font-family: 'Khula', sans-serif;
@@ -34,7 +36,7 @@ header nav{
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 50px;
+    margin-block: 50px;
     gap:40px;
     padding-inline: 35px;
 }
@@ -105,6 +107,7 @@ h1.blue{
 }
 
 .smallcon{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,9 +140,10 @@ div.violet{
     padding-top: 70px;
     padding-inline: 35px;
     justify-content: flex-start;
+    background-color: #9593e6;
 }
 
-.violet{
+.viol{
     background-color: #9593e6;
 }
 
@@ -263,6 +267,72 @@ div.testimonial{
     letter-spacing: 2px;
 
 }
+
+.cardscreen{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: white ;
+    border-radius: 20px;
+}
+
+.benefits{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card{
+    color:#9593e6;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-inline: 35px;
+    gap: 20px;
+       
+}
+
+.card h1{
+    color:#9593e6;
+    font-size: 50px;
+    height: 60px; 
+}
+
+.card p{
+    text-align: start;
+    color: black;
+    opacity: .8;
+}
+
+.card button{
+    background-color: #9593e6;
+    width: 140px;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    height: 40px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    line-height: 45px;
+    font-size: large;
+}
+
+
+   
+
+
+
 
 
 
