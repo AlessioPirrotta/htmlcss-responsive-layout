@@ -408,6 +408,64 @@ div.about-a{
     margin-right: 10px;
 }
 
+#simple{
+    color: white;
+    
+}
+
+#simple :first-child{
+    opacity: .6;
+    font-size: large;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+   
+
+}
+
+#simple h2{
+    font-size: 35px ;
+    text-align: center;
+    width: 100%;
+}
+
+#simple h1{
+    font-size: 60px; 
+    color:#fdc15f ;
+    text-align: center;
+    width: 100%;
+}
+
+#simple p{
+    text-align: center;
+    width: 100%;
+}
+
+#simple button{
+    color:#9593e6;
+    background-color: white;
+    font-size:large;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 100px;
+    width: 250px;
+    height: 65px;
+    line-height: 70px;
+}
+
+#simple :last-child{
+    width: 100%;
+    text-align: center;
+    
+   
+
+}
+
+
+
+
 
 
 
