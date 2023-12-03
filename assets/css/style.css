@@ -328,8 +328,95 @@ div.testimonial{
     font-size: large;
 }
 
+.cardscreen :last-child{
+    margin-bottom: 50px;
+}
 
-   
+.containerab{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    width: 100%;
+    margin-block: 50px;
+    gap:40px;
+    padding-inline: 35px;
+}
+
+div.about-a{
+    display: flex;
+    flex-direction:column;
+    gap: 50px;
+}
+
+
+
+.about-a h1{
+    color: #9593e6;
+    height: 50px;
+    font-size: 50px;
+}
+
+.about-a p{
+    font-size: 20px;
+    max-width: 400px ;
+}
+
+.about-b{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about-b img{
+    width: 200px;
+    display: block;
+    border-radius: 200px;
+}
+
+.quotvio{
+    transform: translate(55px, -60px);
+    scale: 3;
+    fill: #9593e6;
+}
+
+.about-b p{
+    color: #9593e6;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+.about-b button{
+    background-color: #9593e6;
+    border-radius: 30px;
+    height: 30px;
+    width: 200px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    line-height: 35px;
+    margin-top: 20px;
+    
+    
+}
+
+.linkedin{
+    fill: white;
+    vertical-align: -2px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
