@@ -485,6 +485,67 @@ a{
     color: #9593e6;
 }
 
+@media screen and (min-width: 768px) {
+    #demo{
+        width: 500px;
+        height: 600px;
+        display: flex;
+        flex-direction: column; 
+        background-color: #b5ddff ; 
+        border-radius: 20px; 
+       }
+
+       div .smallcon{
+        background-color: #b5ddff ;
+        width: 240px;
+        height: 600px;
+        border-radius: 20px;
+    
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-inline: 0px;
+        gap:20px;
+    }
+
+    .cphone{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 40px;
+    }
+
+    .phone{
+        width: 53.5%;
+        margin-left: 20px;
+    }
+    .wdemo button{
+        width:50% ;
+        height: 40px;
+        background-color:#0084fd ;
+        border: none;
+        border-radius: 30px;
+        color: white;
+        font-size: large;
+        letter-spacing: 2px;
+        font-weight: 600;
+        line-height: 45px;
+    }
+    
+}
+
+
+@media screen and (min-width: 1160px){
+
+}
+
+
+
+
+
 
 
 
