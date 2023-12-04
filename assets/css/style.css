@@ -30,6 +30,13 @@ header nav{
     fill: white;
 }
 
+ul{
+    display: flex;
+    list-style:none;
+    gap: 20px;
+    display: none;
+}
+
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -488,6 +495,7 @@ a{
 /* ---------------- Media Query ---------------- */
 
 @media screen and (min-width: 768px) {
+
     #demo{
         width: 500px;
         height: 600px;
@@ -659,6 +667,44 @@ a{
 
 
 @media screen and (min-width: 1020px){
+
+    header nav{
+        background-color: #0084fd ;
+        padding-inline: 40px ;
+        width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 160px;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        list-style:none;
+        align-items: center;
+        gap: 20px;
+        color: white;
+        font-size: large;
+        
+    }
+
+    ul > a{
+        text-decoration: none;
+    }
+
+    li > button{
+        border: none;
+        width: 100px;
+        height: 40px;
+        border-radius: 30px;
+        font-size: large;
+        line-height: 43px;
+
+    }
+
+
     #demo{
         width: 61.3%;
         height: 350px;
@@ -788,6 +834,10 @@ a{
         border-radius: 20px;
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+
+    .ham{
+        display: none;
     }
 
     
