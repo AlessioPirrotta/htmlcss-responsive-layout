@@ -280,10 +280,10 @@ div.testimonial{
 
 
 .card{
-    width: 300px;
-    height: 400px;
+    width: 90%;
     background-color: white ;
     border-radius: 20px;
+    padding-top: 50px;
 }
 
 .benefits{
@@ -545,6 +545,115 @@ a{
         font-weight: 600;
         line-height: 45px;
     }
+
+    div.vioscreen{
+        width: 100%;
+        height: 300px;
+        border-radius: 50px;
+        display: flex;
+        flex-direction:row;
+        justify-content:flex-start;
+        align-items: center; 
+        background-color:#9593e6;
+        padding-inline: 35px;
+    }
+
+    div.testimonial{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        gap: 10px;
+    
+    }
+    
+    .testimonial p{
+        font-size: large;
+        width:70%;
+        height: 20px;
+    
+    }
+    
+    
+    .test{
+        width: 200px;
+        display: block;
+        border-radius: 100%;
+    }
+
+    .nat{
+        font-size: large;
+        font-weight: 700;
+        letter-spacing: 2px;
+        width: 35%;
+        text-align: start;
+    
+    }
+
+    .card{
+        width: 40%;
+        background-color: white ;
+        border-radius: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .cardscreen :last-child{
+        margin-bottom: 0px;
+    }
+
+    .cardscreen{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+        padding-bottom: 50px;
+    }
+
+    .containerab{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        width: 100%;
+        margin-block: 50px;
+        gap:40px;
+        padding-left: 10%;
+        padding-right: 0;
+    }
+
+    .about-a p{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .about-b p{
+        color: #9593e6;
+        width: 80%;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    div.about-a{
+        display: flex;
+        flex-direction:column;
+        gap: 50px;
+        width: 50%;
+    }
+
+    div.about-b{
+        width: 40%;
+    }
+
+    
+    
+    
     
 }
 
@@ -618,13 +727,13 @@ a{
         padding-top: 70px;
         padding-inline: 35px;
         align-items: flex-end;
-        justify-content: flex-start;
+        justify-content: center;
         background-color: #9593e6;
     }
 
 
     div.whitescreen{
-        width: 40%;
+        width: 25%;
         border-radius: 50px;
         display: flex;
         flex-direction: column;
@@ -636,24 +745,24 @@ a{
         gap: 30px;
     
     
-       }
+    }
 
-       .girl{
-        width: 80%;
+    .girl{
+        width: 70%;
         padding-bottom: 100px;
     }
 
     .violet p{
-        width: 50%;
+        width: 65%;
       
     }
 
     div.gcon{
-        width: 50%;
+        width: 25%;
         padding-bottom: 50px;
     }
     .whitescreen p{
-        width: 100%;
+        width: 80%;
         text-align: center;
     } 
     
@@ -672,6 +781,16 @@ a{
         width: 60%;
         
       } 
+
+      .card{
+        width: 29.2%;
+        background-color: white ;
+        border-radius: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    
 
     
 
