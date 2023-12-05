@@ -492,6 +492,43 @@ a{
     color: #9593e6;
 }
 
+
+.ham:hover{
+    display: none;
+    transition: all 2s;
+    
+}
+
+ul{
+    transition: all 2s;
+}
+
+.ham:hover + ul{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    width: 15%;
+    text-align: center;
+    background-color: rgba(149, 147, 230, 0.8);
+}
+
+ul a{
+    text-decoration: none
+}
+
+li{
+    color: #58568E  ;
+}
+
+li button{
+    background-color:#58568E;
+    color:white;
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+}
+
 /* ---------------- Media Query ---------------- */
 
 @media screen and (min-width: 768px) {
@@ -659,9 +696,47 @@ a{
         width: 40%;
     }
 
+    .ham:hover{
+        display: none;
+        transition: all 2s;
+        
+    }
+
+    ul{
+        transition: all 2s;
+    }
+
+    .ham:hover + ul{
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 80px;
+        width: 15%;
+        text-align: center;
+        background-color: rgba(149, 147, 230, 0.8);
+    }
+
+    ul a{
+        text-decoration: none
+    }
+
+    li{
+        color: #58568E  ;
+    }
+
+    li button{
+        background-color:#58568E;
+        color:white;
+        width: 100px;
+        border: none;
+        margin-bottom: 10px;
+    }
+
+
+
     
     
-    
+
     
 }
 
