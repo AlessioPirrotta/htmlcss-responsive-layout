@@ -28,6 +28,7 @@ header nav{
 .ham{
     scale: 1.5;
     fill: white;
+    transition: all 2s;
 }
 
 ul{
@@ -35,6 +36,7 @@ ul{
     list-style:none;
     gap: 20px;
     display: none;
+    transition: all 2s;
 }
 
 .container{
@@ -494,10 +496,11 @@ a{
 
 
 .ham:hover{
-    display: none;
+    fill: #58568E;
     transition: all 2s;
     
 }
+
 
 ul{
     transition: all 2s;
@@ -697,7 +700,7 @@ li button{
     }
 
     .ham:hover{
-        display: none;
+        fill: #58568E;
         transition: all 2s;
         
     }
